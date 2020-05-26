@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 
 	"code.cloudfoundry.org/bytefmt"
-	"github.com/schollz/progressbar"
+	progressbar "github.com/schollz/progressbar/v3"
 
 	"github.com/pierrec/cmdflag"
 	"github.com/pierrec/lz4"
